@@ -1,11 +1,11 @@
-About sphinx_changelog
-======================
+About sphinx_changelog-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_changelog-feedstock/blob/main/LICENSE.txt)
 
 Home: https://openastronomy.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx_changelog-feedstock/blob/main/LICENSE.txt)
 
 Summary: A changelog renderer for sphinx.
 
