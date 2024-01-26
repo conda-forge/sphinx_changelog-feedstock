@@ -1,5 +1,5 @@
 {% set name = "sphinx_changelog" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 01cf80e176d8306e10de6445f0e68bed4192385e70eb926ea826760b5be36208
+  sha256: 023dd60c34bc1b992e87f3e697d1be1c26b9428f8af5327fe1553fd3e9d6fb0b
 
 build:
   noarch: python
