@@ -1,5 +1,5 @@
 {% set name = "sphinx_changelog" %}
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,22 +7,23 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 023dd60c34bc1b992e87f3e697d1be1c26b9428f8af5327fe1553fd3e9d6fb0b
+  sha256: 5251941cf49496584aaeb596087e6d51458ce0e742740a384a84ff47753fb5f9
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   number: 0
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
+    - setuptools
     - setuptools-scm
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - sphinx
-    - towncrier >=22.8.0
+    - towncrier >=24.8.0
 
 test:
   imports:
