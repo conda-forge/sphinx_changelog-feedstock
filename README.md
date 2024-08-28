@@ -153,4 +153,5 @@ Feedstock Maintainers
 
 * [@BSGalvan](https://github.com/BSGalvan/)
 * [@Cadair](https://github.com/Cadair/)
+* [@bjlittle](https://github.com/bjlittle/)
 
